@@ -1,0 +1,26 @@
+GET http://localhost:5000/main
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTnVtYmVySm9obiIsImlhdCI6MTY1NTI3ODAzMn0.DFdfumd8mo0c8FmpW7r4ZXk2HcjqAkeLvfRDpghJe8k
+
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "NumberJohn"
+}
+
+
+###
+
+
+POST http://localhost:5000/newFlavour
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTnVtYmVySm9obiIsImlhdCI6MTY1NTI3ODAzMn0.DFdfumd8mo0c8FmpW7r4ZXk2HcjqAkeLvfRDpghJe8k
+
+
+{
+    "username" : "LetterGina",
+    "newFlavour" : "D-sss"
+}
