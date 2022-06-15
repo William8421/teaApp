@@ -1,16 +1,16 @@
 export const data =  [
     {
-        username: "NumberJohn",
-        teaFlavours: ["1-TEA", "2-TEA","3-TEA"]
+        username: "John",
+        teaFlavours: ["black tea", "green tea"]
     }, 
     {
-        username: "LetterGina",
-        teaFlavours: ["A-TEA", "B-TEA","C-TEA"]
+        username: "Gina",
+        teaFlavours: ["green tea", ,"chi tea"]
 
     },
     {
-        username: "ColorMary",
-        teaFlavours: ["BLACK-TEA", "GREEN-TEA","RED-TEA"]
+        username: "Smith",
+        teaFlavours: ["black tea", "Chi tea"]
         
     }
 ];
